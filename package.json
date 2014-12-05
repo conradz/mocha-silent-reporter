@@ -1,6 +1,6 @@
 {
   "name": "mocha-silent-reporter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Reporter that only logs on failure",
   "main": "index.js",
   "scripts": {
