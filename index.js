@@ -1,5 +1,4 @@
 var chalk = require('chalk');
-var stack = require('stack-trace-parser');
 var path = require('path');
 
 function reporter(runner) {

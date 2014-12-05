@@ -23,9 +23,7 @@
   },
   "homepage": "https://github.com/conradz/mocha-silent-reporter",
   "dependencies": {
-    "chalk": "^0.5.1",
-    "lodash": "^2.4.1",
-    "stack-trace-parser": "0.0.6"
+    "chalk": "^0.5.1"
   },
   "devDependencies": {
     "mocha": "^2.0.1"
