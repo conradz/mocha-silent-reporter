@@ -1,7 +1,7 @@
 # mocha-silent-reporter
 
-A minimal reporter for [Mocha] that does not output anything if tests pass.
-Ideal for use with `mocha --watch`.
+A minimal reporter for [Mocha](http://mochajs.org/) that is silent when tests
+pass. Ideal for use with `mocha --watch`.
 
     npm install --save-dev mocha-silent-reporter
     mocha -R mocha-silent-reporter <options>
