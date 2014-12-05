@@ -1,0 +1,33 @@
+{
+  "name": "mocha-silent-reporter",
+  "version": "0.0.0",
+  "description": "Reporter that only logs on failure",
+  "main": "index.js",
+  "scripts": {
+    "pass": "mocha --reporter ../../../index.js pass-test.js",
+    "fail": "mocha --reporter ../../../index.js fail-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conradz/mocha-silent-reporter.git"
+  },
+  "keywords": [
+    "mocha",
+    "reporter",
+    "test"
+  ],
+  "author": "Conrad Zimmerman <me@conradz.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/conradz/mocha-silent-reporter/issues"
+  },
+  "homepage": "https://github.com/conradz/mocha-silent-reporter",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "lodash": "^2.4.1",
+    "stack-trace-parser": "0.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
